@@ -1,0 +1,101 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold;
+  /* background-color: #3599A4; */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 78%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #CDE8E5;
+  padding: 1.25rem; 
+  border-radius: 1rem; 
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); 
+  position: relative;
+}
+
+.video-container {
+  width: 100%;
+  margin-bottom: 1.25rem; 
+  position: relative;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 20vh; 
+}
+
+.nav-arrows .arrow {
+  background-color: black;
+  color: white;
+  padding: 0.8rem; 
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-arrows .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow-left {
+  left: -4rem; 
+}
+
+.arrow-right {
+  right: -4rem; 
+}
+.note {
+  background-color: #CDE8E5;
+  color: #333;
+  padding: 1rem; 
+  border-radius: 0.8rem;
+  margin-top: 1.25rem; 
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); 
+}
+
+nav {
+  background-color: #CDE8E5;
+  padding: 1rem; 
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.Checkbox {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 0.5rem; 
+  font-weight: bold;
+}

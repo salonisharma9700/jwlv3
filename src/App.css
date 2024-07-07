@@ -1,6 +1,29 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'OpenDyslexicBold';
+} */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%; 
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
+  
 }
+/* @font-face {
+  font-family: 'OpenDyslexicBold'; 
+  src: url('./open_dyslexic/open_dyslexic/OpenDyslexic-Bold.otf'); 
+} */
+
+/* body {
+  font-family: 'OpenDyslexicBold', Arial, sans-serif;
+} */
 
 .App-logo {
   height: 40vmin;
